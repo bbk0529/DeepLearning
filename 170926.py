@@ -1,6 +1,7 @@
-#####
+##### 
 #####
 ####
+
 import numpy as np
 #평균제곱오차
 t= [0,0,1,0,0,0,0,0,0,0]
@@ -54,3 +55,6 @@ def cross_entroy_error(y,t) :
 	
 	batch_size=y.shape[0]
 	return -np.sum(t*np.log(y)) / batch_size
+	
+	
+####
